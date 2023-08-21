@@ -12,9 +12,12 @@ dependencies:
     sdk: flutter
   intl: ^0.17.0
   uuid: ^3.0.6
-  flutter_native_timezone: ^2.0.0
   device_calendar:
     path: ../
+  flutter_native_timezone:
+    git:
+      url: https://github.com/elyctom/flutter_native_timezone
+      ref: master
 
 dev_dependencies:
   integration_test:
